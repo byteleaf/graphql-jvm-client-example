@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: product-client-java
+server:
+  port: 8083
+
+graphql:
+  tools:
+    schema-location-pattern: "schema/*.graphqls"
+  client:
+    url: http://localhost:8080/graphql
